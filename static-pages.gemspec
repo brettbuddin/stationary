@@ -11,8 +11,14 @@ Gem::Specification.new do |s|
   s.authors = ["Brett Buddin"]
   s.date = %q{2010-10-06}
   s.email = %q{brett@intraspirit.net}
+  s.extra_rdoc_files = [
+    "LICENSE",
+     "README.md"
+  ]
   s.files = [
-    "Rakefile",
+    "LICENSE",
+     "README.md",
+     "Rakefile",
      "app/controllers/pages_controller.rb",
      "config/routes.rb",
      "init.rb",
@@ -24,7 +30,7 @@ Gem::Specification.new do |s|
   s.rdoc_options = ["--charset=UTF-8"]
   s.require_paths = ["lib"]
   s.rubygems_version = %q{1.3.7}
-  s.summary = %q{Provides Rails 3 applications with basic static page support.}
+  s.summary = %q{Simple static pages for Rails}
 
   if s.respond_to? :specification_version then
     current_version = Gem::Specification::CURRENT_SPECIFICATION_VERSION

@@ -4,7 +4,7 @@ begin
   Jeweler::Tasks.new do |gem|
     gem.name = "static-pages"
     gem.version = "0.1"
-    gem.summary = "Provides Rails 3 applications with basic static page support."
+    gem.summary = "Simple static pages for Rails"
     gem.email = "brett@intraspirit.net"
     gem.homepage = "http://github.com/brettbuddin/static-pages"
     gem.date = Time.now.strftime('%Y-%m-%d')
