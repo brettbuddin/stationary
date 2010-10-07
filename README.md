@@ -9,4 +9,3 @@ Put your static pages in the `views/pages` directory.
 ## TODO
 
 * Controller and route overrides
-* Database lookup for static pages
