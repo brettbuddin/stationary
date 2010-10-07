@@ -1,1 +1,3 @@
-require 'static_pages/engine' if defined?(Rails)
+module StaticPages
+  require 'static_pages/engine' if defined?(Rails)
+end

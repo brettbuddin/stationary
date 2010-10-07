@@ -1,0 +1,105 @@
+  Processing by PagesController#show as HTML
+  Parameters: {"id"=>"testing"}
+Completed   in 6ms
+Rendered text template (0.0ms)
+  Processing by PagesController#show as HTML
+  Parameters: {"id"=>"testing"}
+Rendered pages/testing.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 5ms (Views: 4.8ms | ActiveRecord: 0.0ms)
+  Processing by PagesController#show as HTML
+  Parameters: {"id"=>"testing"}
+Rendered pages/testing.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 5ms (Views: 4.9ms | ActiveRecord: 0.0ms)
+  Processing by PagesController#show as HTML
+  Parameters: {"id"=>"testing"}
+Completed 200 OK in 1ms (Views: 0.9ms | ActiveRecord: 0.0ms)
+  Processing by PagesController#show as HTML
+  Parameters: {"id"=>"testing"}
+Rendered pages/testing.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 5ms (Views: 4.7ms | ActiveRecord: 0.0ms)
+  Processing by PagesController#show as HTML
+  Parameters: {"id"=>"testing"}
+Completed 200 OK in 1ms (Views: 0.9ms | ActiveRecord: 0.0ms)
+  Processing by PagesController#show as HTML
+  Parameters: {"id"=>"not_there"}
+Completed   in 2ms
+  Processing by PagesController#show as HTML
+  Parameters: {"id"=>"testing"}
+Rendered pages/testing.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 5ms (Views: 4.7ms | ActiveRecord: 0.0ms)
+  Processing by PagesController#show as HTML
+  Parameters: {"id"=>"testing"}
+Completed 200 OK in 1ms (Views: 0.9ms | ActiveRecord: 0.0ms)
+  Processing by PagesController#show as HTML
+  Parameters: {"id"=>"not_there"}
+Completed   in 2ms
+  Processing by PagesController#show as HTML
+  Parameters: {"id"=>"testing"}
+Rendered pages/testing.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 5ms (Views: 4.7ms | ActiveRecord: 0.0ms)
+  Processing by PagesController#show as HTML
+  Parameters: {"id"=>"testing"}
+Completed 200 OK in 1ms (Views: 0.9ms | ActiveRecord: 0.0ms)
+  Processing by PagesController#show as HTML
+  Parameters: {"id"=>"not_there"}
+Completed   in 2ms
+  Processing by PagesController#show as HTML
+  Parameters: {"id"=>"testing"}
+Rendered pages/testing.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 5ms (Views: 4.6ms | ActiveRecord: 0.0ms)
+  Processing by PagesController#show as HTML
+  Parameters: {"id"=>"testing"}
+Completed 200 OK in 1ms (Views: 0.9ms | ActiveRecord: 0.0ms)
+  Processing by PagesController#show as HTML
+  Parameters: {"id"=>"not_there"}
+Completed   in 2ms
+  Processing by PagesController#show as HTML
+  Parameters: {"id"=>"testing"}
+Rendered pages/testing.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 5ms (Views: 4.6ms | ActiveRecord: 0.0ms)
+  Processing by PagesController#show as HTML
+  Parameters: {"id"=>"testing"}
+Completed 200 OK in 1ms (Views: 0.9ms | ActiveRecord: 0.0ms)
+  Processing by PagesController#show as HTML
+  Parameters: {"id"=>"not_there"}
+Completed   in 2ms
+  Processing by PagesController#show as HTML
+  Parameters: {"id"=>"testing"}
+Rendered pages/testing.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 5ms (Views: 4.7ms | ActiveRecord: 0.0ms)
+  Processing by PagesController#show as HTML
+  Parameters: {"id"=>"testing"}
+Completed 200 OK in 1ms (Views: 0.9ms | ActiveRecord: 0.0ms)
+  Processing by PagesController#show as HTML
+  Parameters: {"id"=>"not_there"}
+Completed   in 2ms
+  Processing by PagesController#show as HTML
+  Parameters: {"id"=>"testing"}
+Rendered pages/testing.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 5ms (Views: 4.6ms | ActiveRecord: 0.0ms)
+  Processing by PagesController#show as HTML
+  Parameters: {"id"=>"testing"}
+Completed 200 OK in 1ms (Views: 0.9ms | ActiveRecord: 0.0ms)
+  Processing by PagesController#show as HTML
+  Parameters: {"id"=>"not_there"}
+Completed   in 2ms
+  Processing by PagesController#show as HTML
+  Parameters: {"id"=>"testing"}
+Rendered pages/testing.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 5ms (Views: 4.6ms | ActiveRecord: 0.0ms)
+  Processing by PagesController#show as HTML
+  Parameters: {"id"=>"testing"}
+Completed 200 OK in 1ms (Views: 0.9ms | ActiveRecord: 0.0ms)
+  Processing by PagesController#show as HTML
+  Parameters: {"id"=>"not_there"}
+Completed   in 2ms
+  Processing by PagesController#show as HTML
+  Parameters: {"id"=>"testing"}
+Rendered pages/testing.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 5ms (Views: 4.6ms | ActiveRecord: 0.0ms)
+  Processing by PagesController#show as HTML
+  Parameters: {"id"=>"testing"}
+Completed 200 OK in 1ms (Views: 0.9ms | ActiveRecord: 0.0ms)
+  Processing by PagesController#show as HTML
+  Parameters: {"id"=>"not_there"}
+Completed   in 2ms
