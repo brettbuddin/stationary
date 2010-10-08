@@ -20,4 +20,4 @@ Custom routes can be provided like this:
 
     static_page '/stuff/junk' => 'junk'
 
-This will make the path `/stuff/junk` route to the template `/app/views/pages/junk.html.erb`.
+This will make the path `/stuff/junk` route to the template `app/views/pages/junk.html.erb`.
