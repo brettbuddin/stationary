@@ -20,4 +20,16 @@ describe PagesController do
       response.status.should == 404
     end
   end
+
+  describe "request to a nested page" do
+    before(:each) { get :show, :id => 'nested/stuff' }
+
+    it "renders the :stuff template" do
+      response.should render_template(:stuff)
+    end
+
+    it "responds with success" do 
+      response.should be_success
+    end
+  end
 end
