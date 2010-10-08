@@ -12,7 +12,7 @@ By default, providing a template such as `app/views/pages/about.html.erb`, the p
 
 Nested pages are supported; so `app/views/pages/stuff/junk.html.erb` will route to `/stuff/junk`.
 
-Characters available in your page paths are limited to (as defined by regex): words, digits, `-`, `_` and `+`.
+Characters available in your page paths are limited to (as defined by regex): words, digits, `-`, `_`, `/` and `+`.
 
 ### Custom Routes
 
