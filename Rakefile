@@ -5,11 +5,12 @@ task :default => :spec
 Rspec::Core::RakeTask.new(:spec)
 
 begin
-  require "jeweler"
+  require 'jeweler'
+  require 'static_pages'
 
   Jeweler::Tasks.new do |gem|
     gem.name = "static-pages"
-    gem.version = "0.1"
+    gem.version = StaticPages::Version
     gem.summary = "Simple static pages for Rails"
     gem.email = "brett@intraspirit.net"
     gem.homepage = "http://github.com/brettbuddin/static-pages"
