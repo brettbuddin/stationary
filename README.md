@@ -8,7 +8,7 @@ Put your templates for these pages in the `views/pages` directory.
 
 ## Routes
 
-By default, providing a template such as `app/views/pages/about.html.erb`, the path `/about` will become available. You can use `pages_path('about')` or `pages_url('about')` (what you're already used to) to refer to this page within your application.
+By default, providing a template such as `app/views/pages/about.html.erb` will make the path `/about` available. You can use `pages_path('about')` or `pages_url('about')` (what you're already used to) to refer to this page within your application.
 
 Nested pages are supported; so `app/views/pages/stuff/junk.html.erb` will route to `/stuff/junk`.
 
