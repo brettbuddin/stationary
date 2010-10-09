@@ -2,7 +2,7 @@
 
 Simple static pages for Rails.
 
-    gem 'static-pages', :git => 'git://github.com/brettbuddin/static-pages.git'
+    gem 'static-pages', :require => 'static_pages', :git => 'git://github.com/brettbuddin/static-pages.git'
 
 Put your templates for these pages in the `views/pages` directory.
 
