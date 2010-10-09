@@ -1,6 +1,9 @@
-require 'static_pages/version'
-require 'static_pages/routing'
-
 module StaticPages
-  require 'static_pages/engine' if defined?(Rails)
+end
+
+require 'static_pages/version'
+require 'static_pages/blacklist'
+if defined?(Rails)
+  require 'static_pages/mapping'
+  require 'static_pages/engine'
 end

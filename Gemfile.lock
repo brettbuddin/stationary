@@ -1,3 +1,8 @@
+PATH
+  remote: .
+  specs:
+    static-pages (0.1)
+
 GEM
   remote: http://rubygems.org/
   specs:
@@ -93,3 +98,4 @@ DEPENDENCIES
   rspec-rails (>= 2.0.0.beta)
   shoulda
   sqlite3-ruby
+  static-pages!
