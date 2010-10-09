@@ -1,13 +1,14 @@
 module StaticPages
   class Blacklist
-    @test = []
+    @list = []
 
     def self.matches?(request)
-      !@test.include?(request.path)
+      puts @list.inspect
+      !@list.include?(request.path)
     end
 
     def self.add(path)
-      @test << path
+      @list << path
     end
   end
 end
