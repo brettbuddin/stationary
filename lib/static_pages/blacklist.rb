@@ -3,7 +3,6 @@ module StaticPages
     @list = []
 
     def self.matches?(request)
-      puts @list.inspect
       !@list.include?(request.path)
     end
 
