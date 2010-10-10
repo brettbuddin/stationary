@@ -1,7 +1,7 @@
 module StaticPages
   class Blacklist
     @list = []
-
+    
     def self.matches?(request)
       !@list.include?(request.path)
     end

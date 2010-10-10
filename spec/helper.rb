@@ -4,6 +4,7 @@ require File.expand_path('../dummy/config/environment.rb',  __FILE__)
 require 'rails/test_help'
 require 'rspec/rails'
 require 'shoulda'
+require 'mocha'
 
 Dir["#{File.dirname(__FILE__)}/support/**/*.rb"].each { |f| require f }
 Rspec.configure do |config|
@@ -12,5 +13,5 @@ Rspec.configure do |config|
   config.include Rspec::Matchers
   config.include Shoulda::ActionController::Matchers
 
-  config.mock_with :rspec
+  config.mock_with :mocha
 end

@@ -6,6 +6,7 @@ group :test do
 
   gem 'rspec-rails', '>= 2.0.0.beta'
   gem 'shoulda'
+  gem 'mocha'
 end
 
 group :development do
