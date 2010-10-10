@@ -1,1 +1,1 @@
-require 'static_pages'
+require 'stationary'

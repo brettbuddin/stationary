@@ -1,4 +1,4 @@
-module StaticPages
+module Stationary
   class Blacklist
     @list = []
     

@@ -5,7 +5,7 @@ require 'rails/all'
 # If you have a Gemfile, require the gems listed there, including any gems
 # you've limited to :test, :development, or :production.
 Bundler.setup
-require 'static_pages'
+require 'stationary'
 
 module Dummy
   class Application < Rails::Application

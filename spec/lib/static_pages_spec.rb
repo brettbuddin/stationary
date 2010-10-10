@@ -1,11 +1,11 @@
 require 'helper'
 
-describe StaticPages do
+describe Stationary do
   it "is valid" do
-    StaticPages.should be_a(Module)
+    Stationary.should be_a(Module)
   end
 
   it "is an engine" do
-    assert StaticPages::Engine.superclass == Rails::Engine
+    assert Stationary::Engine.superclass == Rails::Engine
   end
 end

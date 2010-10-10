@@ -1,6 +1,6 @@
 require 'helper'
 
-describe PagesController do
+describe Stationary::PagesController do
   describe "request to page that exists" do
     before(:each) { get :show, :id => 'testing' }
 

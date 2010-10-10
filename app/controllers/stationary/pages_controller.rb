@@ -1,4 +1,4 @@
-class PagesController < ApplicationController
+class Stationary::PagesController < ApplicationController
   unloadable
 
   rescue_from ActionView::MissingTemplate, :with => proc {
