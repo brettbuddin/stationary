@@ -6,8 +6,6 @@ group :test do
 
   gem 'rspec-rails', '>= 2.0.0.beta'
   gem 'shoulda'
-
-  gem 'static-pages', :require => 'static_pages', :path => '.'
 end
 
 group :development do
