@@ -9,7 +9,7 @@ Gem::Specification.new do |s|
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Brett Buddin"]
-  s.date = %q{2010-10-10}
+  s.date = %q{2010-10-15}
   s.description = %q{Provides Rails applications with a simple way of defining static pages.}
   s.email = %q{brett@intraspirit.net}
   s.extra_rdoc_files = [
@@ -23,7 +23,7 @@ Gem::Specification.new do |s|
     "LICENSE",
     "README.md",
     "Rakefile",
-    "app/controllers/pages_controller.rb",
+    "app/controllers/stationary/pages_controller.rb",
     "config/routes.rb",
     "init.rb",
     "lib/stationary.rb",
@@ -31,6 +31,8 @@ Gem::Specification.new do |s|
     "lib/stationary/engine.rb",
     "lib/stationary/mapping.rb",
     "lib/stationary/version.rb",
+    "pkg/stationary-0.1.gem",
+    "pkg/stationary3-0.1.gem",
     "spec/controllers/pages_controller_spec.rb",
     "spec/dummy/.gitignore",
     "spec/dummy/README",
@@ -79,7 +81,8 @@ Gem::Specification.new do |s|
     "spec/dummy/vendor/plugins/.gitkeep",
     "spec/helper.rb",
     "spec/lib/blacklist_spec.rb",
-    "spec/lib/static_pages_spec.rb"
+    "spec/lib/static_pages_spec.rb",
+    "stationary.gemspec"
   ]
   s.homepage = %q{http://github.com/brettbuddin/stationary}
   s.require_paths = ["lib"]
